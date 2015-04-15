@@ -15,4 +15,6 @@ NodeJS Socket.io demo
 
 ブラウザでlocalhost:3000を開く
 
+## 素材
 
+[「やさぐれひよこ素材」置き場](http://banraku-games.sakura.ne.jp/yasagure/index.html)
