@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name=viewport content="width=device-width, initial-scale=1">
+	<title>Hello Socket.io</title>
+	<script src="/socket.io/socket.io.js"></script>
+	<style>
+		* {
+			font-family: "メイリオ",Meiryo, Osaka,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+			font-size: 12px;
+			line-height: 140%;
+			color: #333333;
+		}
+		#canvas ,
+		#log {
+			border : 1px solid gray;
+		}
+		#log {
+			width:240px;
+			height:128px;
+			overflow:hidden;
+		}
+	</style>
+</head>
+<body>
+<canvas width="240" height="320" id="canvas"></canvas>
+<canvas width="240" height="320" id="prerender" style="display:none;"></canvas>
+<script src="view.js"></script>
+<br />
+<input id="msg" /><button id="sendMsg">send</button>
+<p id="log"></p>
+</body>
+</html>
+
